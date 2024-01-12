@@ -43,7 +43,7 @@ const Footer = () => {
 
                             </a>
                         </div>
-                        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div class="grid grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-4">
                             <div>
                                 <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="">
@@ -93,6 +93,28 @@ const Footer = () => {
                                     </li>
                                     <li className="mt-2">
                                         <a href="#" class="hover:underline">Trust &amp; Safety</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li className="mt-2 hover:cursor-pointer">
+                                        <Image
+                                            src={"/google-play.svg"}
+                                            alt="google-play"
+                                            height={100}
+                                            width={100}
+                                            className="object-contain object-center w-40 rounded-lg"
+                                        />
+                                    </li>
+                                    <li className="mt-2 hover:cursor-pointer">
+                                        <Image
+                                            src={"/apple-app-store.svg"}
+                                            alt="app-store"
+                                            height={100}
+                                            width={100}
+                                            className="object-cover object-center w-40 h-12 rounded-lg"
+                                        />
                                     </li>
                                 </ul>
                             </div>
