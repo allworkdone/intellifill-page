@@ -168,7 +168,7 @@ const Content = () => {
                             <div className='mx-4 my-4'>
                                 <h1 className='font-bold text-2xl'>Exams you might be intrested in</h1>
                                 <div className='px-2 py-4'>
-                                    <div className='justify-between' bharat-university>
+                                    <div className='justify-between'>
                                         <div className='flex flex-row'>
                                             <div>
                                                 <Image
@@ -206,7 +206,7 @@ const Content = () => {
                                             <hr className="px-2 border-gray-200 sm:mx-auto dark:border-gray-200 lg:my-2" />
                                         </div>
                                     </div>
-                                    <div className='justify-between' ts-eamcet>
+                                    <div className='justify-between'>
                                         <div className='flex flex-row'>
                                             <div>
                                                 <Image
@@ -244,7 +244,7 @@ const Content = () => {
                                             <hr className="px-2 border-gray-200 sm:mx-auto dark:border-gray-200 lg:my-2" />
                                         </div>
                                     </div>
-                                    <div className='justify-between' SRMJEE>
+                                    <div className='justify-between'>
                                         <div className='flex flex-row'>
                                             <div>
                                                 <Image
@@ -282,7 +282,7 @@ const Content = () => {
                                             <hr className="px-2 border-gray-200 sm:mx-auto dark:border-gray-200 lg:my-2" />
                                         </div>
                                     </div>
-                                    <div className='justify-between' VITJEE>
+                                    <div className='justify-between'>
                                         <div className='flex flex-row'>
                                             <div>
                                                 <Image

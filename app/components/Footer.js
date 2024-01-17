@@ -10,9 +10,9 @@ const Footer = () => {
             <footer className="bg-white ">
                 <div className="w-full max-w-screen-xl p-4 py-6 mx-auto lg:py-8">
                     <div className="md:flex md:justify-between">
-                        <div class="mb-6 md:mb-0">
-                            <a href="/" class="flex items-center">
-                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                        <div className="mb-6 md:mb-0">
+                            <a href="/" className="flex items-center">
+                                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                                     <Image
                                         src="/logo.png"
                                         alt="logo"
@@ -43,56 +43,56 @@ const Footer = () => {
 
                             </a>
                         </div>
-                        <div class="grid grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-4">
+                        <div className="grid grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-4">
                             <div>
-                                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="">
-                                        <a href="#" class="hover:underline">About Us</a>
+                                        <a href="#" className="hover:underline">About Us</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Sitemap</a>
+                                        <a href="#" className="hover:underline">Sitemap</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Credits</a>
+                                        <a href="#" className="hover:underline">Credits</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Help Center</a>
+                                        <a href="#" className="hover:underline">Help Center</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Community Guidelines</a>
+                                        <a href="#" className="hover:underline">Community Guidelines</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li >
-                                        <a href="#" class="hover:underline ">Accessibility</a>
+                                        <a href="#" className="hover:underline ">Accessibility</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline ">Mobile</a>
+                                        <a href="#" className="hover:underline ">Mobile</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline ">Marketing</a>
+                                        <a href="#" className="hover:underline ">Marketing</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline ">Advertising</a>
+                                        <a href="#" className="hover:underline ">Advertising</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline ">Report Issue</a>
+                                        <a href="#" className="hover:underline ">Report Issue</a>
                                     </li>
 
                                 </ul>
                             </div>
                             <div>
-                                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Privacy Policy</a>
+                                        <a href="#" className="hover:underline">Privacy Policy</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                        <a href="#" className="hover:underline">Terms &amp; Conditions</a>
                                     </li>
                                     <li className="mt-2">
-                                        <a href="#" class="hover:underline">Trust &amp; Safety</a>
+                                        <a href="#" className="hover:underline">Trust &amp; Safety</a>
                                     </li>
                                 </ul>
                             </div>
@@ -122,10 +122,10 @@ const Footer = () => {
                     </div>
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div className="flex flex-col sm:flex sm:items-center sm:justify-between">
-                        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                             All trademarks are the property of their respective owners.
                         </span>
-                        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">All Rights Reserved © 2024 Intellifill Tech Pvt. Ltd
+                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">All Rights Reserved © 2024 Intellifill Tech Pvt. Ltd
                         </span>
 
                     </div>
