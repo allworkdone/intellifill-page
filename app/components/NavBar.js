@@ -32,11 +32,16 @@ const NavBar = () => {
                             </ul>
                         </div>
                         <div searchbar>
-                            <div className="flex items-center justify-center w-full h-10 pl-3 pr-2 my-1 text-gray-500 border rounded-full bg-gray-50 border-blue-500 focus:outline-none focus:border-blue-500">
+                            <div className="hidden lg:flex items-center justify-center w-full h-10 pl-3 pr-2 my-1 text-gray-500 border rounded-full bg-gray-50 border-blue-500 focus:outline-none focus:border-blue-500">
                                 <button type="submit" className="inline-flex items-center justify-center w-10 h-10 text-gray-400 hover:bg-gray-100 focus:outline-none">
                                     <RiSearch2Line className="w-5 h-5" />
                                 </button>
                                 <input type="search" name="search" placeholder="Search exams here" className="w-full pl-2 bg-transparent outline-none" />
+                            </div>
+                            <div className="lg:hidden flex items-center justify-center w-full h-10 pl-3 pr-2 my-1 text-gray-500 border rounded-full bg-gray-50 border-blue-500 focus:outline-none focus:border-blue-500">
+                                <button type="submit" className="inline-flex items-center justify-center w-10 h-10 text-gray-400 hover:bg-gray-100 focus:outline-none">
+                                    <RiSearch2Line className="w-5 h-5" />
+                                </button>
                             </div>
                         </div>
                         <div bell>
@@ -46,10 +51,13 @@ const NavBar = () => {
                         </div>
                         <div profile>
                             <button className="flex justify-center gap-2 ">
-                                <Image src="/profile.png" alt="profile" width={50} height={50} className='rounded-full'/>
+                                <Image src="/profile.png" alt="profile" width={50} height={50} className='rounded-full' />
                             </button>
                         </div>
                     </div>
+                </div>
+                <div className='mx-4'>
+                    <hr className="px-2 border-gray-200 sm:mx-auto dark:border-gray-200 lg:my-2" />
                 </div>
             </header>
         </>
