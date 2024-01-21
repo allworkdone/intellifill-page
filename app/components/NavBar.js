@@ -18,7 +18,7 @@ const NavBar = () => {
                                     <a href="#" >Home</a>
                                 </li>
                                 <li className="inline-block mr-4">
-                                    <a href="#" >Resul</a>
+                                    <a href="#" >Result</a>
                                 </li>
                                 <li className="inline-block mr-4">
                                     <a href="#" >FAQ</a>
@@ -41,7 +41,7 @@ const NavBar = () => {
                                     <input type="search" name="search" placeholder="Search exams here" className="w-full pl-2 bg-transparent outline-none" />
                                 </div>
                                 <div className="lg:hidden flex items-center justify-center w-full h-10 pl-3 pr-2 my-1 text-gray-500 border rounded-full bg-gray-50 border-blue-500 focus:outline-none focus:border-blue-500">
-                                    <button type="submit" className="inline-flex items-center justify-center w-10 h-10 text-gray-400 hover:bg-gray-100 focus:outline-none">
+                                    <button type="submit" className="inline-flex items-center justify-center w-10 h-10 text-gray-400 focus:outline-none">
                                         <RiSearch2Line className="w-5 h-5" />
                                     </button>
                                 </div>
