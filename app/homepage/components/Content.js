@@ -1,13 +1,15 @@
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward, IoMdWallet } from "react-icons/io";
+import { IoBookmarkOutline,IoPeopleSharp } from "react-icons/io5";
 import Image from "next/image";
+import Link from "next/link";
 
 const Content = () => {
     return (
         <>
-            <div className="bg-white">
+            <div className="bg-[#F8F9FA]">
                 <div className="p-4 py-2 mx-auto w-full max-w-screen-xl lg:py-4">
                     {/* Card Layout */}
-                    <div className="py-2 mx-auto main-div bg-gradient-to-r from-black to-gray-800 h-[180px] rounded-xl flex justify-between">
+                    <div className="py-2 mx-auto main-div bg-gradient-to-r from-black to-gray-800 h-[180px] rounded-xl flex justify-between shadow-lg">
                         <div className="button-div-back my-auto">
                             <button className="bg-white h-16">
                                 <IoIosArrowBack className="text-2xl" />
