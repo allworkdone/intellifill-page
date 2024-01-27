@@ -41,6 +41,11 @@ const Content = () => {
                             </button>
                         </div>
                     </div>
+                    {/* Recommended exam section layout part-1*/}
+                    <div className="py-2 lg:py-4 mx-auto flex justify-between text-2xl font-bold">
+                        <h3 className="text-black">Recommended exams</h3>
+                        <h3 className="text-blue-500 hover:text-blue-900 transition delay-150"><Link href={"/homepage"}>See All</Link></h3>
+                    </div>
                 </div>
             </div>
         </>
