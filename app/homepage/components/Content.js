@@ -554,6 +554,490 @@ const Content = () => {
                             <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">GEEE</div>
                         </div>
                     </div>
+                    {/* Recommended exam section layout part-2*/}
+                    <div className="card-main-div h-[300px] w-auto flex gap-4 space-x-4 overflow-x-auto scrollbar-hide">
+                        {/* First card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image">
+                                        <Image
+                                            src={"/JEE.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">JEE Mains 2023</h1>
+                                        <h3 className="text-sm text-gray-500">National Testing Agency</h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 20 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1200</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">IIT</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* second card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/upsc.svg"}
+                                            alt="UPSC"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">Civil Services 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Union Public Service Commission</h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 15 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1500</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* third card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/ssc.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">SSC CGL 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Staff Selection </h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 10 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1000</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* fourth card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/ssc.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">SSC CGL 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Staff Selection </h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 15 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1500</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* fifth card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/ssc.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">SSC CGL 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Staff Selection </h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 15 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1500</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* sixth card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/ssc.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">SSC CGL 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Staff Selection </h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 15 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1500</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* seventh card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/ssc.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">SSC CGL 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Staff Selection </h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 15 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1500</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* eighth card */}
+                        <div className="card-1 h-[280px] w-[370px] border border-black rounded-xl flex-shrink-0">
+                            <div className="1st-section flex justify-between py-4 px-4">
+                                <div className="Image-and-text flex gap-4">
+                                    <div className="image h-[70px]">
+                                        <Image
+                                            src={"/ssc.svg"}
+                                            alt="JEE"
+                                            height={70}
+                                            width={70}
+                                            className="h-full border border-black rounded-xl"
+                                        />
+                                    </div>
+                                    <div className="texts- py-2">
+                                        <h1 className="text-lg font-bold">SSC CGL 2023</h1>
+                                        <h3 className="text-sm text-gray-500">Staff Selection </h3>
+                                    </div>
+                                </div>
+                                <div className="icon py-2">
+                                    <IoBookmarkOutline className="text-4xl text-blue-500" />
+                                </div>
+                            </div>
+                            <div className="px-4">
+                                <hr className="" />
+                            </div>
+                            <div className="2nd-section flex justify-center items-center my-2">
+                                <div>
+                                    <div className="icon-and-text">
+                                        <ul className="people flex flex-row gap-2">
+                                            <li>
+                                                <IoPeopleSharp className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">
+                                                More than 15 Lakhs
+                                            </li>
+                                        </ul>
+                                        <ul className="cost flex flex-row gap-2">
+                                            <li>
+                                                <IoMdWallet className="text-4xl"/>
+                                            </li>
+                                            <li className="text-xl py-1">&#8377; 1500</li>
+                                        </ul>
+                                    </div>
+                                    <div className="section-card">
+                                        <ul className="flex flex-row gap-2 my-2 text-gray-500">
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">Engineering</li>
+                                            <li className="border border-gray-500 rounded-xl py-2 px-2">PCM</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul className="flex flex-row text-blue-500">
+                                            <li className="text-lg font-bold">View details</li>
+                                            <li>
+                                                <IoIosArrowForward className="text-xl my-1"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
