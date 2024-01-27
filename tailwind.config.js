@@ -16,5 +16,6 @@ module.exports = {
   },
   plugins: [
     require('@shrutibalasa/tailwind-grid-auto-fit'),
+    require('tailwind-scrollbar-hide'),
   ],
 }
