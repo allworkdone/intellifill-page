@@ -535,6 +535,25 @@ const Content = () => {
                         <h3 className="text-black">Recent exams</h3>
                         <h3 className="text-blue-500 hover:text-blue-900 transition delay-150"><Link href="/homepage">See All</Link></h3>
                     </div>
+                    {/* Recent exam section layout part-2*/}
+                    <div className="flex space-x-4 overflow-x-auto h-20 scrollbar-hide">
+                        <div className="flex justify-center items-center flex-shrink-0 gap-4 ">
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl bg-blue-500 text-white ">All</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">GATE</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">AP EAPCT</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">BITSAT</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">JEE Mains</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">JEE Advance</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">TS EAMCET</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">TS EAMCET</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">Amity JEE</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">CIEAT</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">BEEE</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">HITSEE</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">IAT IISER</div>
+                            <div className="px-2 border border-blue-500 rounded-2xl font-bold text-xl text-blue-500">GEEE</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
