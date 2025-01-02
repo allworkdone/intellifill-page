@@ -81,7 +81,7 @@ const Content = () => {
                         </div>
 
                         {/* Second Grid */}
-                        <div className="col-span-3 xl:col-start-1 xl:row-start-3 md:col-start-1 md:row-start-3 bg-white shadow-2xl xl:row-span-5 rounded-xl">
+                        <div className="col-span-3 xl:col-start-1 xl:row-start-3 md:col-start-1 md:row-start-3 bg-white xl:row-span-5 rounded-xl">
                             <div className='mx-4 my-4'>
                                 <div>
                                     <h1 className='text-xl font-bold'>Exam Description:</h1>
